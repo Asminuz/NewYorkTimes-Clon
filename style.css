@@ -55,7 +55,7 @@ log-btns {
     width: 64vw;
     left: 50vw;
     transform: translate(-50%);
-    border-bottom: 1px solid black;
+    max-height: 50vh;
 }
 
 .container-1 a{
@@ -94,7 +94,6 @@ log-btns {
     display: flex;
     flex-direction: column;
     width: 15vw;
-    border-bottom: 1px solid black;
     position: relative;
     top: 5vh;
 }
@@ -105,5 +104,37 @@ log-btns {
     position: relative;
     left: 16vw;
     bottom: 36vh;
+    margin-right: 2px;
     
+}
+
+.subtitle-2{
+    position: relative;
+    left: 15vw;
+    top: 5.8vh;
+}
+
+.subtitle-2 img{
+    width: 17vw;
+}
+
+.subtitle-2 h4{
+    width: 17vw;
+}
+
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    gap: 1rem;
+}
+
+.container-3 img{
+    width: 8vw;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
