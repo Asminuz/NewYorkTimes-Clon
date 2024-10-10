@@ -20,19 +20,19 @@ header {
     left: 50vw;
     transform: translate(-50%);
     border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 21.33vw) ;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: inherit;
 }
 
 nav ul {
-    width: inherit;
-    display: flex;
     text-decoration: none;
     list-style-type: none;
 }
@@ -41,9 +41,26 @@ nav ul  li {
     display: inline;
 }
 
-log-btns {
-    position: relative;
-    left: 0;
+nav ul li a {
+    margin: 8px;
+}
+
+.sub {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.eco {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.new {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGGOIhbsF3cBxtVk-hNADoehbR21gdn1JYg&s);
+    background-size: cover;
 }
 
 .container-1 a{
