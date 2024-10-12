@@ -41,15 +41,60 @@ nav ul  li {
     display: inline;
 }
 
-nav ul li a {
-    margin: 8px;
+.regions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.acenter:hover {
+    cursor: pointer;
+}
+
+.region {
+    cursor: pointer;
+    margin: 4px;
+    color: gray;
+    font-size: 12px;
 }
 
 .sub {
     display: flex;
+    font-size: 12px;
     justify-content: end;
-    text-decoration: none;
+    align-items: center;
     list-style-type: none;
+    text-decoration: none;
+}
+
+.sub li {
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(90, 119, 156);
+    border-radius: 3px;
+    color: white;
+}
+
+.sub li:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(84, 106, 136);
+}
+
+.t-red {
+    color: red;
+    margin: 6px;
+}
+
+.tb:hover {
+    cursor: pointer;
+    transition: 0.4s;
+    color: rgb(124, 124, 124);
 }
 
 .eco {
@@ -61,6 +106,28 @@ nav ul li a {
 .new {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGGOIhbsF3cBxtVk-hNADoehbR21gdn1JYg&s);
     background-size: cover;
+}
+
+.categories {
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+}
+
+.catbtn {
+    margin: 8px;
+}
+
+.catnav {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.catnav ul li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid black;
 }
 
 .container-1{
