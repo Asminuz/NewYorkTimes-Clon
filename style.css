@@ -207,9 +207,9 @@ nav ul  li {
 }
 
 .container-3{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -218,7 +218,10 @@ nav ul  li {
 }
 
 .container-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    position: relative;
+    gap: 4rem;
 }
+
+
