@@ -91,6 +91,10 @@ nav ul  li {
     margin: 6px;
 }
 
+.t-red-2 {
+    color: red;
+}
+
 .tb:hover {
     cursor: pointer;
     transition: 0.4s;
