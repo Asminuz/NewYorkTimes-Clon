@@ -210,7 +210,6 @@ nav ul  li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
 }
 
 .container-3 img{
