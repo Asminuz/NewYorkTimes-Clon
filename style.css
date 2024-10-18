@@ -147,7 +147,7 @@ nav ul  li {
     left: 50vw;
     transform: translate(-50%);
     grid-template-columns: repeat(4,15.34vw);
-    grid-template-rows: repeat(6, 4vw);
+    grid-template-rows: repeat(5, 4vw) 1rem;
     border-bottom: 2px solid black;
     gap: 1rem;
 }
