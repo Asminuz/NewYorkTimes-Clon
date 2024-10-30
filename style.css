@@ -197,15 +197,33 @@ nav ul  li {
     grid-template-columns: repeat(4,15.34vw);
     grid-template-rows: 1fr;
     gap: 1rem;
+    border-bottom: 1px solid #000000;
+    padding: 3px;
 }
 
 .card-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .img-1 {
-    background-image: url(Resources/img-1.png);
+    background-image: url(Resources/Kamala.jpg);
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url(Resources/form.jpg);
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url(Resources/white.jpg);
+    background-size: cover;
+}
+
+.img-4 {
+    background-image: url(Resources/plan.jpg);
     background-size: cover;
 }
 
