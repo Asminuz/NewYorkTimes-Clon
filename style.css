@@ -270,3 +270,19 @@ nav ul  li {
     grid-column: 3/5;
     grid-row: 1/4;
 }
+
+.img-cont3 {
+    background-image: url(Resources/base.jpg);
+    background-size: cover;
+    margin: 1rem;
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
+
+.img-cont4 {
+    background-image: url(Resources/gri.jpg);
+    background-size: cover;
+    margin: 1rem;
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
